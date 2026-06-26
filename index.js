@@ -128,9 +128,9 @@ app.listen(PORT, () => {
 // ============================================================
 const botOptions = {
   host: config.server ? config.server.ip : 'brother-opSmp.aternos.me',
-  port: config.server ? config.server.port : 59607,
+  port: config.server ? config.server.port :59607,
   username: config['bot-account'] ? config['bot-account'].username : 'Cool_alex4',
-  version: config.server ? config.server.version : '1.20.1',
+  version: config.server ? config.server.version : '1.21.11',
   auth: 'offline'
 };
 
